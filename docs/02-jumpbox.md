@@ -19,6 +19,7 @@ Now that you are logged into the `jumpbox` machine as the `root` user, you will 
 ```bash
 apt-get -y install wget curl vim openssl git
 ```
+If you get an error `E: Unable to locate package git`, simply run the command `apt-get update` and then retry.
 
 ### Sync GitHub Repository
 
